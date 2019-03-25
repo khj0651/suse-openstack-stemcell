@@ -9,6 +9,7 @@ Start the builder container using
 cd ~/workspace
 git clone https://github.com/abhilash07/suse-openstack-stemcell.git
 cd suse-openstack-stemcell
+chmod 755 stemcell-run 
 ./stemcell-run suse-os-image-stemcell-builder
 ```
 
