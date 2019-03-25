@@ -6,11 +6,14 @@ Build Openstack KVM openSUSE stemcell
 Start the builder container using
 
 ```bash
-cd ~/workspace
-git clone https://github.com/abhilash07/suse-openstack-stemcell.git
-cd suse-openstack-stemcell
-chmod 755 stemcell-run 
-./stemcell-run suse-os-image-stemcell-builder
+$ cd ~/workspace
+$ git clone https://github.com/abhilash07/suse-openstack-stemcell.git
+$ cd suse-openstack-stemcell
+$ cd ~/workspace/suse-openstack-stemcell/ci/docker/suse-os-image-stemcell-builder
+$ ./build
+$ cd ~/workspace/suse-openstack-stemcell/ci/docker/
+chmod 755 run 
+./run suse-os-image-stemcell-builder
 ```
 
 and install the required rubygems
