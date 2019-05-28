@@ -10,6 +10,8 @@ $ cd ~/workspace
 $ git clone https://github.com/abhilash07/suse-openstack-stemcell.git
 $ cd suse-openstack-stemcell
 $ cd ~/workspace/suse-openstack-stemcell/ci/docker/suse-os-image-stemcell-builder
+#Download VMware-ovftool from this link (https://github.com/richardatlateralblast/ottar/blob/master/VMware-ovftool-4.1.0-2459827-lin.x86_64.bundle?raw=true)
+$ wget -O VMware-ovftool-4.1.0-2459827-lin.x86_64.bundle https://github.com/richardatlateralblast/ottar/blob/master/VMware-ovftool-4.1.0-2459827-lin.x86_64.bundle?raw=true
 $ ./build
 $ cd ~/workspace/suse-openstack-stemcell/ci/docker/
 $ chmod 755 run 
